@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8886
   tomcat:
     uri-encoding: utf-8
     basedir: "log/tomcat"
@@ -18,7 +18,7 @@ server:
 
 spring:
   profiles:
-    active: dev
+    active: prod
   thymeleaf:
     cache: false
   jackson:
